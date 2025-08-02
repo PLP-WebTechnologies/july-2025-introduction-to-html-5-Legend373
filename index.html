@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A beginner-friendly HTML5 webpage with accessibility and SEO best practices."
+    />
+    <meta name="author" content="Yasmin Anwar" />
+    <title>Welcome to Semantic Web</title>
+  </head>
+  <body>
+    <!-- Site Header -->
+    <header>
+      <!-- Site Navigation -->
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <h1>Semantic Web Example</h1>
+      <p>
+        Your introduction to HTML5 semantic structure, accessibility, and SEO.
+      </p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- About Section -->
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Us</h2>
+        <p>
+          We provide helpful web development resources and guides for beginners
+          who are getting started with HTML5 and best practices for the modern
+          web.
+        </p>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" aria-labelledby="services-heading">
+        <h2 id="services-heading">Our Services</h2>
+        <ul>
+          <li>Semantic HTML structure tutorials</li>
+          <li>Accessibility compliance guides</li>
+          <li>SEO optimization tips</li>
+        </ul>
+      </section>
+
+      <!-- Articles Section -->
+      <section id="articles" aria-labelledby="articles-heading">
+        <h2 id="articles-heading">Latest Articles</h2>
+
+        <article>
+          <header>
+            <h3>Why Semantic HTML Matters</h3>
+            <p>
+              Published on <time datetime="2025-08-02">August 2, 2025</time>
+            </p>
+          </header>
+          <p>
+            Learn how semantic tags like <code>&lt;article&gt;</code> and
+            <code>&lt;section&gt;</code> help structure your content for both
+            users and search engines.
+          </p>
+        </article>
+
+        <article>
+          <header>
+            <h3>Getting Started with Accessibility</h3>
+            <p>Published on <time datetime="2025-07-30">July 30, 2025</time></p>
+          </header>
+          <p>
+            Accessibility is essential. This article guides you through ARIA
+            landmarks, labels, and semantic markup that improves user experience
+            for everyone.
+          </p>
+        </article>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <address>
+          Email: <a href="mailto:info@example.com">info@example.com</a><br />
+          Phone: <a href="tel:+1234567890">+1 234-567-890</a>
+        </address>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer>
+      <p>&copy; 2025 Semantic Web. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
